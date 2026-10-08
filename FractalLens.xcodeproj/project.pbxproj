@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3343C6C5A20692F7BABA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D858BAC8D362FD9A507F1B /* Assets.xcassets */; };
+		102B0D7A1E2DC7A9BE378C86 /* PatternArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87236923875ED29D467098D5 /* PatternArtwork.swift */; };
+		194D63F0666ECF0ED346D4BB /* ObserveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5C4AE9D848F51BCB57DEA /* ObserveView.swift */; };
+		1A9CBF56893D84DCB09A2CF6 /* WorldLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD593291E9219029443587B /* WorldLibrary.swift */; };
+		2150AD5B47327635A0F92B5D /* InstrumentSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD31E95039CC238DE0A3F82 /* InstrumentSlider.swift */; };
+		2944689948C7EE919606786C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82BFB363955FEF580C1DCE /* Models.swift */; };
+		2F4379598C2C6542E3302100 /* example-analyses.json in Resources */ = {isa = PBXBuildFile; fileRef = 5403B276282714732ACB25FC /* example-analyses.json */; };
+		3251E57F4DEA35E397BB44AD /* fern-canopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68EC5753016015AAC26F15AD /* fern-canopy.jpg */; };
+		3B32FEF4A58B34E73ED4D2B2 /* StructureCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E358F838D95F3309277BE62 /* StructureCanvas.swift */; };
+		3B9DE14685236DAC68DC5FB9 /* LiveObservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923DA22448BED9F505F2145 /* LiveObservationTests.swift */; };
+		3BD3D169C4452B8C1F75789B /* ObservationEvidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3981ADBCBC1A840C7FF944 /* ObservationEvidence.swift */; };
+		40FDA7644F784298064C8BB5 /* LiveObservationGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382B3AE3B0942C0331832D19 /* LiveObservationGate.swift */; };
+		44CEB3611ABFC966AA51805E /* StageArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA348ABE89A11C4AD90F273 /* StageArtwork.swift */; };
+		455459E72F348E85ED316F7E /* examples.json in Resources */ = {isa = PBXBuildFile; fileRef = 0619395786E9A472A2534369 /* examples.json */; };
+		506B0C4045D72D21765286F6 /* PatternAtlasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B56CDC260BA768C07CAB64 /* PatternAtlasView.swift */; };
+		68495F91113C0B563B9CD90C /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A709DBC4598762487F4C224 /* ExperienceView.swift */; };
+		7D7493325466C98A98CF6461 /* SpecimenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF69BFEF62E6AFD8B895EDB /* SpecimenStore.swift */; };
+		81B46D4C2CDC6ADC2F6E1D16 /* neem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70117D09DA8B9A3B30A29517 /* neem.jpg */; };
+		8286BB6EEB43732CE8EA7F42 /* GrowthSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F5B8FA314324D62FB8A9A8 /* GrowthSimulation.swift */; };
+		84DEE18554285C4F099FB2B6 /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2507AA029462E48EE751E3F6 /* Explorer.swift */; };
+		8B360073F7BE8B360749825A /* fern-study.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8542E73B44D8DC7E046830 /* fern-study.jpg */; };
+		8B97181C89FF94130362D556 /* fern-unfolding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2F9ABA8F1137A6520323E73 /* fern-unfolding.jpg */; };
+		8BE9919376E209F4FD34DD32 /* PhotoAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A0ABC8F764C49F74F3C2B /* PhotoAnalyzer.swift */; };
+		90E755E271B9480D5D4F2433 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305AC50070D6B5B8CDCDF52 /* CameraController.swift */; };
+		9ECE52D75913C1BED968D32B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62816D9809CBCCED24FA1F99 /* HomeView.swift */; };
+		A69998B860E70AB53BFAE0F7 /* ekebergia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A82C68DBF0F557CA666FB8DD /* ekebergia.jpg */; };
+		A82B97922AB9E372FDDAE2A9 /* FractalLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960BDA87BE624BAACADD659D /* FractalLensTests.swift */; };
+		ADA60F1EF30916991FFA9D24 /* PatternLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3206A3260A43914E7EFE3 /* PatternLibrary.swift */; };
+		B839119232AA414D77816228 /* FractalLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F59DEF24BA201F11EF213 /* FractalLensApp.swift */; };
+		C0CB9041BA407B3FA060899D /* WorldAtlasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1150FE381D0FDA263600DF95 /* WorldAtlasView.swift */; };
+		C3AF51C537583C4AA9E15D6B /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD7EF79C78A9B98F7460F2 /* DesignSystem.swift */; };
+		CDA78A089B05DDA1D6C231F5 /* PatternLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF1887BE91D3A7060C1E3C /* PatternLibraryTests.swift */; };
+		CFA6A5DC1C3CFBB985962099 /* FractalLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E80F3CD671721BFF973D /* FractalLensUITests.swift */; };
+		E393E17F80E200D16E8D485A /* StructuralAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A876D615DB0E995F9A76A50 /* StructuralAnalysis.swift */; };
+		E3DE9535036C56F9D5D22D04 /* SceneAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCBE1189EFC06D610165D9 /* SceneAnalyzer.swift */; };
+		FB449C291900F7515D0907D9 /* bare-tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BF2A81F9E442ADB8343381 /* bare-tree.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB8BA33FF972A2245ADBCAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C603C2711A78F976EE880F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17703EDC41D466C11F5F2D40;
+			remoteInfo = FractalLens;
+		};
+		E1BD825BECF419E15C4CB6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C603C2711A78F976EE880F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17703EDC41D466C11F5F2D40;
+			remoteInfo = FractalLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0619395786E9A472A2534369 /* examples.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = examples.json; sourceTree = "<group>"; };
+		0D82BFB363955FEF580C1DCE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1150FE381D0FDA263600DF95 /* WorldAtlasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldAtlasView.swift; sourceTree = "<group>"; };
+		1AFD7EF79C78A9B98F7460F2 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		1BF69BFEF62E6AFD8B895EDB /* SpecimenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecimenStore.swift; sourceTree = "<group>"; };
+		2507AA029462E48EE751E3F6 /* Explorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explorer.swift; sourceTree = "<group>"; };
+		25E3206A3260A43914E7EFE3 /* PatternLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLibrary.swift; sourceTree = "<group>"; };
+		2B3981ADBCBC1A840C7FF944 /* ObservationEvidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationEvidence.swift; sourceTree = "<group>"; };
+		2BCBCE83B452BE54149FB861 /* FractalLens.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FractalLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		382B3AE3B0942C0331832D19 /* LiveObservationGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveObservationGate.swift; sourceTree = "<group>"; };
+		4C2F59DEF24BA201F11EF213 /* FractalLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalLensApp.swift; sourceTree = "<group>"; };
+		5403B276282714732ACB25FC /* example-analyses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "example-analyses.json"; sourceTree = "<group>"; };
+		5BD593291E9219029443587B /* WorldLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLibrary.swift; sourceTree = "<group>"; };
+		5BF58B8FD92E4C2889A37161 /* FractalLensTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FractalLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62816D9809CBCCED24FA1F99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		68EC5753016015AAC26F15AD /* fern-canopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fern-canopy.jpg"; sourceTree = "<group>"; };
+		70117D09DA8B9A3B30A29517 /* neem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neem.jpg; sourceTree = "<group>"; };
+		7A709DBC4598762487F4C224 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		7A876D615DB0E995F9A76A50 /* StructuralAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuralAnalysis.swift; sourceTree = "<group>"; };
+		84DCBE1189EFC06D610165D9 /* SceneAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneAnalyzer.swift; sourceTree = "<group>"; };
+		86BF2A81F9E442ADB8343381 /* bare-tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bare-tree.jpg"; sourceTree = "<group>"; };
+		87236923875ED29D467098D5 /* PatternArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternArtwork.swift; sourceTree = "<group>"; };
+		87F7E80F3CD671721BFF973D /* FractalLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalLensUITests.swift; sourceTree = "<group>"; };
+		8E358F838D95F3309277BE62 /* StructureCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureCanvas.swift; sourceTree = "<group>"; };
+		9375C7FA6D80F9D48E0F4789 /* FractalLensUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FractalLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960BDA87BE624BAACADD659D /* FractalLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalLensTests.swift; sourceTree = "<group>"; };
+		9DA348ABE89A11C4AD90F273 /* StageArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageArtwork.swift; sourceTree = "<group>"; };
+		9FAF1887BE91D3A7060C1E3C /* PatternLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLibraryTests.swift; sourceTree = "<group>"; };
+		A82C68DBF0F557CA666FB8DD /* ekebergia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ekebergia.jpg; sourceTree = "<group>"; };
+		A923DA22448BED9F505F2145 /* LiveObservationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveObservationTests.swift; sourceTree = "<group>"; };
+		AFD31E95039CC238DE0A3F82 /* InstrumentSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentSlider.swift; sourceTree = "<group>"; };
+		B1B56CDC260BA768C07CAB64 /* PatternAtlasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternAtlasView.swift; sourceTree = "<group>"; };
+		B305AC50070D6B5B8CDCDF52 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B9D858BAC8D362FD9A507F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11A0ABC8F764C49F74F3C2B /* PhotoAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAnalyzer.swift; sourceTree = "<group>"; };
+		D2F9ABA8F1137A6520323E73 /* fern-unfolding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fern-unfolding.jpg"; sourceTree = "<group>"; };
+		DAE5C4AE9D848F51BCB57DEA /* ObserveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveView.swift; sourceTree = "<group>"; };
+		E7F5B8FA314324D62FB8A9A8 /* GrowthSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthSimulation.swift; sourceTree = "<group>"; };
+		EA8542E73B44D8DC7E046830 /* fern-study.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fern-study.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		17D73A75DD8174508CB30A49 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				1150FE381D0FDA263600DF95 /* WorldAtlasView.swift */,
+				5BD593291E9219029443587B /* WorldLibrary.swift */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		30295B709BE6F3D77039431C /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				62816D9809CBCCED24FA1F99 /* HomeView.swift */,
+				1BF69BFEF62E6AFD8B895EDB /* SpecimenStore.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		5545EC1EB0FB6633D9981D12 /* FractalLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87F7E80F3CD671721BFF973D /* FractalLensUITests.swift */,
+			);
+			path = FractalLensUITests;
+			sourceTree = "<group>";
+		};
+		6F0B18FF5FF3DA7B5DE4B890 /* GrowthSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5B8FA314324D62FB8A9A8 /* GrowthSimulation.swift */,
+			);
+			path = GrowthSimulation;
+			sourceTree = "<group>";
+		};
+		7711413E9A86931BE094A475 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				87236923875ED29D467098D5 /* PatternArtwork.swift */,
+				B1B56CDC260BA768C07CAB64 /* PatternAtlasView.swift */,
+				25E3206A3260A43914E7EFE3 /* PatternLibrary.swift */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		8321871B5E07C6D212FA7DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCBCE83B452BE54149FB861 /* FractalLens.app */,
+				5BF58B8FD92E4C2889A37161 /* FractalLensTests.xctest */,
+				9375C7FA6D80F9D48E0F4789 /* FractalLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F63E95E3A4C7B12B756C66C /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				C11A0ABC8F764C49F74F3C2B /* PhotoAnalyzer.swift */,
+				84DCBE1189EFC06D610165D9 /* SceneAnalyzer.swift */,
+				7A876D615DB0E995F9A76A50 /* StructuralAnalysis.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		A74480AA8AA53AC0444F96A2 /* Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				1AFD7EF79C78A9B98F7460F2 /* DesignSystem.swift */,
+				7A709DBC4598762487F4C224 /* ExperienceView.swift */,
+				AFD31E95039CC238DE0A3F82 /* InstrumentSlider.swift */,
+				9DA348ABE89A11C4AD90F273 /* StageArtwork.swift */,
+				8E358F838D95F3309277BE62 /* StructureCanvas.swift */,
+			);
+			path = Visualization;
+			sourceTree = "<group>";
+		};
+		ACD9809D21FAB308B5CA17BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2507AA029462E48EE751E3F6 /* Explorer.swift */,
+				4C2F59DEF24BA201F11EF213 /* FractalLensApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CDC19DB9987074963B45A280 /* FractalModel */ = {
+			isa = PBXGroup;
+			children = (
+				0D82BFB363955FEF580C1DCE /* Models.swift */,
+				2B3981ADBCBC1A840C7FF944 /* ObservationEvidence.swift */,
+			);
+			path = FractalModel;
+			sourceTree = "<group>";
+		};
+		E2AD4943F8E7BEAA6DDB5123 = {
+			isa = PBXGroup;
+			children = (
+				F57295892E6E2B902EA013EE /* FractalLens */,
+				E4590FDD06A45CFD145A8D3E /* FractalLensTests */,
+				5545EC1EB0FB6633D9981D12 /* FractalLensUITests */,
+				E7A27DE892F3D6890FEBE301 /* Resources */,
+				8321871B5E07C6D212FA7DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4590FDD06A45CFD145A8D3E /* FractalLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				960BDA87BE624BAACADD659D /* FractalLensTests.swift */,
+				A923DA22448BED9F505F2145 /* LiveObservationTests.swift */,
+				9FAF1887BE91D3A7060C1E3C /* PatternLibraryTests.swift */,
+			);
+			path = FractalLensTests;
+			sourceTree = "<group>";
+		};
+		E7A27DE892F3D6890FEBE301 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9D858BAC8D362FD9A507F1B /* Assets.xcassets */,
+				86BF2A81F9E442ADB8343381 /* bare-tree.jpg */,
+				A82C68DBF0F557CA666FB8DD /* ekebergia.jpg */,
+				5403B276282714732ACB25FC /* example-analyses.json */,
+				0619395786E9A472A2534369 /* examples.json */,
+				68EC5753016015AAC26F15AD /* fern-canopy.jpg */,
+				EA8542E73B44D8DC7E046830 /* fern-study.jpg */,
+				D2F9ABA8F1137A6520323E73 /* fern-unfolding.jpg */,
+				70117D09DA8B9A3B30A29517 /* neem.jpg */,
+			);
+			name = Resources;
+			path = FractalLens/Resources;
+			sourceTree = "<group>";
+		};
+		F57295892E6E2B902EA013EE /* FractalLens */ = {
+			isa = PBXGroup;
+			children = (
+				9F63E95E3A4C7B12B756C66C /* Analysis */,
+				ACD9809D21FAB308B5CA17BD /* App */,
+				FC3EB415E7B919E5FD5CAC9D /* Camera */,
+				30295B709BE6F3D77039431C /* Collection */,
+				CDC19DB9987074963B45A280 /* FractalModel */,
+				6F0B18FF5FF3DA7B5DE4B890 /* GrowthSimulation */,
+				7711413E9A86931BE094A475 /* Patterns */,
+				A74480AA8AA53AC0444F96A2 /* Visualization */,
+				17D73A75DD8174508CB30A49 /* World */,
+			);
+			path = FractalLens;
+			sourceTree = "<group>";
+		};
+		FC3EB415E7B919E5FD5CAC9D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B305AC50070D6B5B8CDCDF52 /* CameraController.swift */,
+				382B3AE3B0942C0331832D19 /* LiveObservationGate.swift */,
+				DAE5C4AE9D848F51BCB57DEA /* ObserveView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17703EDC41D466C11F5F2D40 /* FractalLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD8A179D988F14182DB8BFE /* Build configuration list for PBXNativeTarget "FractalLens" */;
+			buildPhases = (
+				4EDE7917FC2296E9AF0F2F2D /* Sources */,
+				BF2488E6D5A74AF12472B8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractalLens;
+			packageProductDependencies = (
+			);
+			productName = FractalLens;
+			productReference = 2BCBCE83B452BE54149FB861 /* FractalLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DDD0E02AAD070E57DC00681 /* FractalLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A949A0E04A47E448D04E582 /* Build configuration list for PBXNativeTarget "FractalLensUITests" */;
+			buildPhases = (
+				F8D382B4B9DA2CA48CB2B004 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				770A183232F379A0236A1C3E /* PBXTargetDependency */,
+			);
+			name = FractalLensUITests;
+			packageProductDependencies = (
+			);
+			productName = FractalLensUITests;
+			productReference = 9375C7FA6D80F9D48E0F4789 /* FractalLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CC8BE96857B9D8477B6B231D /* FractalLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC89D8FE816CD0270ACEDDB7 /* Build configuration list for PBXNativeTarget "FractalLensTests" */;
+			buildPhases = (
+				1F59FDD8ED3457358EA34154 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4759B6DA3D0FB2A8D31E0AF /* PBXTargetDependency */,
+			);
+			name = FractalLensTests;
+			packageProductDependencies = (
+			);
+			productName = FractalLensTests;
+			productReference = 5BF58B8FD92E4C2889A37161 /* FractalLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C603C2711A78F976EE880F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					17703EDC41D466C11F5F2D40 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					9DDD0E02AAD070E57DC00681 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17703EDC41D466C11F5F2D40;
+					};
+					CC8BE96857B9D8477B6B231D = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5805B9BE14E77DC61BE775CC /* Build configuration list for PBXProject "FractalLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E2AD4943F8E7BEAA6DDB5123;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8321871B5E07C6D212FA7DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17703EDC41D466C11F5F2D40 /* FractalLens */,
+				CC8BE96857B9D8477B6B231D /* FractalLensTests */,
+				9DDD0E02AAD070E57DC00681 /* FractalLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2488E6D5A74AF12472B8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3343C6C5A20692F7BABA95 /* Assets.xcassets in Resources */,
+				FB449C291900F7515D0907D9 /* bare-tree.jpg in Resources */,
+				A69998B860E70AB53BFAE0F7 /* ekebergia.jpg in Resources */,
+				2F4379598C2C6542E3302100 /* example-analyses.json in Resources */,
+				455459E72F348E85ED316F7E /* examples.json in Resources */,
+				3251E57F4DEA35E397BB44AD /* fern-canopy.jpg in Resources */,
+				8B360073F7BE8B360749825A /* fern-study.jpg in Resources */,
+				8B97181C89FF94130362D556 /* fern-unfolding.jpg in Resources */,
+				81B46D4C2CDC6ADC2F6E1D16 /* neem.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F59FDD8ED3457358EA34154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82B97922AB9E372FDDAE2A9 /* FractalLensTests.swift in Sources */,
+				3B9DE14685236DAC68DC5FB9 /* LiveObservationTests.swift in Sources */,
+				CDA78A089B05DDA1D6C231F5 /* PatternLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDE7917FC2296E9AF0F2F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E755E271B9480D5D4F2433 /* CameraController.swift in Sources */,
+				C3AF51C537583C4AA9E15D6B /* DesignSystem.swift in Sources */,
+				68495F91113C0B563B9CD90C /* ExperienceView.swift in Sources */,
+				84DEE18554285C4F099FB2B6 /* Explorer.swift in Sources */,
+				B839119232AA414D77816228 /* FractalLensApp.swift in Sources */,
+				8286BB6EEB43732CE8EA7F42 /* GrowthSimulation.swift in Sources */,
+				9ECE52D75913C1BED968D32B /* HomeView.swift in Sources */,
+				2150AD5B47327635A0F92B5D /* InstrumentSlider.swift in Sources */,
+				40FDA7644F784298064C8BB5 /* LiveObservationGate.swift in Sources */,
+				2944689948C7EE919606786C /* Models.swift in Sources */,
+				3BD3D169C4452B8C1F75789B /* ObservationEvidence.swift in Sources */,
+				194D63F0666ECF0ED346D4BB /* ObserveView.swift in Sources */,
+				102B0D7A1E2DC7A9BE378C86 /* PatternArtwork.swift in Sources */,
+				506B0C4045D72D21765286F6 /* PatternAtlasView.swift in Sources */,
+				ADA60F1EF30916991FFA9D24 /* PatternLibrary.swift in Sources */,
+				8BE9919376E209F4FD34DD32 /* PhotoAnalyzer.swift in Sources */,
+				E3DE9535036C56F9D5D22D04 /* SceneAnalyzer.swift in Sources */,
+				7D7493325466C98A98CF6461 /* SpecimenStore.swift in Sources */,
+				44CEB3611ABFC966AA51805E /* StageArtwork.swift in Sources */,
+				E393E17F80E200D16E8D485A /* StructuralAnalysis.swift in Sources */,
+				3B32FEF4A58B34E73ED4D2B2 /* StructureCanvas.swift in Sources */,
+				C0CB9041BA407B3FA060899D /* WorldAtlasView.swift in Sources */,
+				1A9CBF56893D84DCB09A2CF6 /* WorldLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D382B4B9DA2CA48CB2B004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA6A5DC1C3CFBB985962099 /* FractalLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		770A183232F379A0236A1C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17703EDC41D466C11F5F2D40 /* FractalLens */;
+			targetProxy = E1BD825BECF419E15C4CB6A6 /* PBXContainerItemProxy */;
+		};
+		D4759B6DA3D0FB2A8D31E0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17703EDC41D466C11F5F2D40 /* FractalLens */;
+			targetProxy = DB8BA33FF972A2245ADBCAC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		298141C0AED0BB847D6DEB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.fractal.FractalLensUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FractalLens;
+			};
+			name = Debug;
+		};
+		50D8AF7A012BD1A1DE5F02AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.fractal.FractalLensTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FractalLens.app/FractalLens";
+			};
+			name = Release;
+		};
+		652D1347B230C04A4AE74912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9B0FCDFD6BC8F9EE532D4BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.fractal.FractalLensTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FractalLens.app/FractalLens";
+			};
+			name = Debug;
+		};
+		CA22F5C5DEB17FCD0BEFA501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fractal;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Discover repeating shapes and structures in the world around you using a live, on-device lens.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.fractal.lens;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6BF3FE9BF6B4709CE9DA18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ED534368B6738374D54D0ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.fractal.FractalLensUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FractalLens;
+			};
+			name = Release;
+		};
+		EE24BAC3BEE32639D0DBA9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fractal;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Discover repeating shapes and structures in the world around you using a live, on-device lens.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.fractal.lens;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5805B9BE14E77DC61BE775CC /* Build configuration list for PBXProject "FractalLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652D1347B230C04A4AE74912 /* Debug */,
+				D6BF3FE9BF6B4709CE9DA18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A949A0E04A47E448D04E582 /* Build configuration list for PBXNativeTarget "FractalLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298141C0AED0BB847D6DEB7C /* Debug */,
+				ED534368B6738374D54D0ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC89D8FE816CD0270ACEDDB7 /* Build configuration list for PBXNativeTarget "FractalLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0FCDFD6BC8F9EE532D4BFB /* Debug */,
+				50D8AF7A012BD1A1DE5F02AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBD8A179D988F14182DB8BFE /* Build configuration list for PBXNativeTarget "FractalLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA22F5C5DEB17FCD0BEFA501 /* Debug */,
+				EE24BAC3BEE32639D0DBA9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C603C2711A78F976EE880F /* Project object */;
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "seconds": 0,
+    "ps_pid_cpu_percent_rss_kb": "46858  15.8 234192"
+  },
+  {
+    "seconds": 4,
+    "ps_pid_cpu_percent_rss_kb": "46858  43.0 226448"
+  },
+  {
+    "seconds": 8,
+    "ps_pid_cpu_percent_rss_kb": "46858  32.2 235040"
+  },
+  {
+    "seconds": 12,
+    "ps_pid_cpu_percent_rss_kb": "46858  28.9 282352"
+  },
+  {
+    "seconds": 16,
+    "ps_pid_cpu_percent_rss_kb": "46858  24.7 283984"
+  },
+  {
+    "seconds": 20,
+    "ps_pid_cpu_percent_rss_kb": "46858  21.9 284576"
+  },
+  {
+    "seconds": 24,
+    "ps_pid_cpu_percent_rss_kb": "46858  25.4 285184"
+  }
+]

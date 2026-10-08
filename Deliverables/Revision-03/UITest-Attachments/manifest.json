@@ -1,0 +1,44 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "537E8ADB-DE8D-4DED-A65F-738EA892DF00",
+        "deviceName" : "Fractal Lens QA",
+        "exportedFileName" : "D7680B5C-7679-472B-A5E5-B1E827DCDA10.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Revision 03 Spiral evidence_0_FA24AF71-2A4B-4467-828A-BAD956C1ADF1.png",
+        "timestamp" : 1791436388.014
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "537E8ADB-DE8D-4DED-A65F-738EA892DF00",
+        "deviceName" : "Fractal Lens QA",
+        "exportedFileName" : "FD6BE133-DB07-4101-B88C-6E6EBEA311FD.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Revision 03 Spiral study_0_9AB21BF5-4C6D-4C62-82D9-AA848F1ABF83.png",
+        "timestamp" : 1791436381.69
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "537E8ADB-DE8D-4DED-A65F-738EA892DF00",
+        "deviceName" : "Fractal Lens QA",
+        "exportedFileName" : "B8791DD9-41AF-416B-A1BA-9483A290DA98.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Revision 03 World atlas_0_AC04D067-BCD1-4A10-9070-9F5E812B162F.png",
+        "timestamp" : 1791436372.795
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "537E8ADB-DE8D-4DED-A65F-738EA892DF00",
+        "deviceName" : "Fractal Lens QA",
+        "exportedFileName" : "F92FDB25-A13D-4A72-903D-80F3A25FE07A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Revision 03 Discover_0_F74F86D7-A5D3-49E0-9381-7852F4209660.png",
+        "timestamp" : 1791436369.478
+      }
+    ],
+    "testIdentifier" : "FractalLensUITests/testWorldLibraryExplainsSpiralWithoutClaimingFractal()",
+    "testIdentifierURL" : "test://com.apple.xcode/FractalLens/FractalLensUITests/FractalLensUITests/testWorldLibraryExplainsSpiralWithoutClaimingFractal"
+  }
+]

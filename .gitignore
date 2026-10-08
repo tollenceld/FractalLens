@@ -1,0 +1,22 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.xcodebuildmcp/
+
+# Local results and generated distributions
+*.xcresult/
+*.xcarchive/
+*.ipa
+*.dSYM/
+__pycache__/
+*.py[cod]
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
